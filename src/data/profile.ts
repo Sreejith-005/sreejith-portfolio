@@ -1,0 +1,36 @@
+export const profile = {
+  name: 'Sreejith T',
+  title: 'Data Science Graduate | AI/ML Enthusiast | Generative AI Developer',
+  location: 'Coimbatore, Tamil Nadu, India',
+  email: 'sreejith.py3@gmail.com',
+  phone: '6383265245',
+  linkedin: 'https://www.linkedin.com/in/sreejith005',
+  github: 'https://github.com/Sreejith-005',
+  resumeUrl: 'public/sreejith_resume.pdf',
+  hero: {
+    greeting: "Hi, I'm Sreejith 👋",
+    headline: 'Data Science Graduate building with',
+    highlight: 'AI & Data.',
+    sub: 'I build machine learning solutions, data-driven applications, and AI-powered tools using Python, Generative AI, LLMs, RAG, and modern development frameworks.',
+  },
+  status: 'Open to entry-level opportunities in Data Science, AI/ML, Generative AI and related technology roles.',
+  about: [
+    "I'm a Data Science graduate with a strong interest in Artificial Intelligence, Machine Learning, Generative AI, and Data Analytics.",
+    'My learning journey has focused on combining data analysis and machine learning with modern AI technologies. I enjoy turning ideas into practical applications, from predictive ML models and Power BI dashboards to conversational AI and RAG-based PDF assistants.',
+    "I'm continuously improving my technical and problem-solving skills while exploring new technologies in AI and software development.",
+  ],
+  info: [
+    { label: 'Education', value: 'B.Sc. Data Science' },
+    { label: 'Location', value: 'Coimbatore, Tamil Nadu' },
+    { label: 'Focus', value: 'AI / ML / Data Science' },
+    { label: 'Interests', value: 'Generative AI / LLMs / RAG' },
+  ],
+  whatIBuild: [
+    { icon: 'brain', title: 'Machine Learning', text: 'Predictive models and data-driven solutions.' },
+    { icon: 'sparkles', title: 'Generative AI', text: 'LLM-powered applications and AI assistants.' },
+    { icon: 'file', title: 'RAG Applications', text: 'Document-aware AI systems using retrieval and generation.' },
+    { icon: 'chart', title: 'Data Analytics', text: 'Data analysis, visualization, dashboards and business insights.' },
+  ],
+  techStack: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'LangChain', 'HuggingFace', 'LLM', 'Streamlit'],
+  achievement: { title: 'Ranked 1st in Class 12', text: 'Secured 1st rank in Class 12 and achieved a top 3 overall rank in the school for academic performance.' },
+}

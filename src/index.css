@@ -1,0 +1,23 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+:root { --bg:#07090F; --ink:#E6EAF2; --muted:#8B93A7; --cyan:#22D3EE; --violet:#8B5CF6; --surface:rgba(255,255,255,.04); --border:rgba(255,255,255,.08); }
+html { scroll-behavior: smooth; }
+body { background: var(--bg); color: var(--ink); font-family: Inter, system-ui, sans-serif; overflow-x: hidden; }
+section[id] { scroll-margin-top: 72px; }
+:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; border-radius: 6px; }
+@layer components {
+  .glass { @apply rounded-2xl border border-white/[0.08] bg-white/[0.04] backdrop-blur-md; }
+  .section { @apply py-16 md:py-24; }
+  .wrap { @apply mx-auto w-full max-w-content px-5 sm:px-8; }
+  .grad-text { @apply bg-gradient-to-r from-cyan to-violet bg-clip-text text-transparent; }
+  .btn { @apply inline-flex min-h-[44px] items-center justify-center gap-2 rounded-xl px-5 text-sm font-semibold transition; }
+  .btn-primary { @apply btn bg-gradient-to-r from-cyan to-violet text-bg hover:brightness-110; }
+  .btn-ghost { @apply btn border border-white/15 text-ink hover:border-cyan/60 hover:text-cyan; }
+  .chip { @apply rounded-full border border-white/10 bg-white/[0.05] px-3 py-1 text-xs text-ink/90; }
+  .label { @apply font-head text-xs uppercase tracking-[0.2em] text-cyan; }
+}
+.h2 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.75rem, 1.2rem + 2vw, 2.75rem); font-weight: 700; line-height: 1.15; }
+.h1 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(2.2rem, 1.2rem + 4vw, 4.2rem); font-weight: 700; line-height: 1.08; }
+@keyframes drift { 0%,100% { transform: translate(0,0); } 50% { transform: translate(6px,-12px); } }
+.float { animation: drift 6s ease-in-out infinite; }
+.grid-bg { background-image: linear-gradient(var(--border) 1px, transparent 1px), linear-gradient(90deg, var(--border) 1px, transparent 1px); background-size: 48px 48px; mask-image: radial-gradient(ellipse at 50% 30%, #000 20%, transparent 70%); }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .float { animation: none; } *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; } }
