@@ -6,7 +6,7 @@ export const profile = {
   phone: '6383265245',
   linkedin: 'https://www.linkedin.com/in/sreejith005',
   github: 'https://github.com/Sreejith-005',
-  resumeUrl: 'public/sreejith_resume.pdf',
+  resumeUrl: '/resume.pdf',
   hero: {
     greeting: "Hi, I'm Sreejith 👋",
     headline: 'Data Science Graduate building with',
