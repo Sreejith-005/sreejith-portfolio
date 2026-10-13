@@ -20,10 +20,10 @@ export default function Projects() {
     alt="SreeAI PDF Chatbot"
     className="h-full w-full object-cover"
   />
-) : p.title === 'SreeAI Chatbot' ? (
+) : p.title === 'Coder Buddy' ? (
   <img
-    src="/projects/chatbot.png"
-    alt="SreeAI Chatbot"
+    src="/projects/coder_buddy.png"
+    alt="Coder Buddy Multi-Agent AI Coding Assistant"
     className="h-full w-full object-cover"
   />
 ) : p.title === 'Customer Churn Prediction' ? (
