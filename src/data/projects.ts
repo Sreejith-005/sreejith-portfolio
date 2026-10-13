@@ -28,7 +28,7 @@ export const projects: Project[] = [
     problem: 'Creating a complete project requires planning its structure, organizing implementation tasks, and generating connected files.',
     workflow: ['User Prompt', 'Planner Agent', 'Architect Agent', 'Coder Agent', 'Generated Project'],
     results: [],
-    liveUrl: '',
+    liveUrl: 'https://coder-buddy-ai.streamlit.app/',
     githubUrl: 'https://github.com/Sreejith-005/multi-agent-coding-assistant',
   },
   {
