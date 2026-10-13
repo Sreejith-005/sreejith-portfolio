@@ -3,7 +3,7 @@ import { motion, useReducedMotion } from 'framer-motion'
 import { profile } from '../data/profile'
 import NetworkBg from './NetworkBg'
 
-const chips = [['Python', '8%', '12%'], ['ML', '70%', '8%'], ['DL', '85%', '42%'], ['LLM', '10%', '55%'], ['RAG', '60%', '75%'], ['LangChain', '18%', '85%']]
+const chips = [['Python', '8%', '12%'], ['ML', '70%', '8%'], ['DL', '85%', '42%'], ['LLM', '10%', '55%'], ['RAG', '60%', '75%'], ['LangChain', '18%', '85%'], ['LangGraph', '42%', '65%']]
 
 function useResumeExists() {
   const [ok, setOk] = useState(false)
