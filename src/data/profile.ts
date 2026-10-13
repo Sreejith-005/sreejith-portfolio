@@ -31,6 +31,6 @@ export const profile = {
     { icon: 'file', title: 'RAG Applications', text: 'Document-aware AI systems using retrieval and generation.' },
     { icon: 'chart', title: 'Data Analytics', text: 'Data analysis, visualization, dashboards and business insights.' },
   ],
-  techStack: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'LangChain', 'HuggingFace', 'LLM', 'Streamlit'],
+  techStack: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'LangChain', 'HuggingFace', 'LLM', 'LangGraph','Streamlit'],
   achievement: { title: 'Ranked 1st in Class 12', text: 'Secured 1st rank in Class 12 and achieved a top 3 overall rank in the school for academic performance.' },
 }

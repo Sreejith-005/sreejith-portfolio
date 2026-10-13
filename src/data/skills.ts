@@ -3,6 +3,6 @@ export const skills: { category: string; items: string[] }[] = [
   { category: 'Machine Learning', items: ['Machine Learning', 'Scikit-learn', 'Model Evaluation', 'Data Preprocessing'] },
   { category: 'Deep Learning', items: ['Deep Learning', 'Tensorflow', 'Pytorch', 'Natural Language Processing']},
   { category: 'Data Visualization', items: ['Matplotlib', 'Seaborn', 'Power BI'] },
-  { category: 'Generative AI', items: ['Generative AI', 'LLMs', 'LangChain', 'RAG'] },
+  { category: 'Generative AI', items: ['Generative AI', 'LLMs', 'LangChain', 'RAG', 'LangGraph'] },
   { category: 'Development Tools', items: ['Streamlit', 'VS Code', 'Jupyter Notebook', 'GitHub'] },
 ]
